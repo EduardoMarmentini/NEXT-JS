@@ -113,3 +113,42 @@ a {
 .vermelha{
   background-color: crimson;
 }
+
+/* Style do arquivo da MegaSena */
+
+.tituloMega{
+  text-align :center;
+  background-color : #969696;
+}
+
+.corpoMega{
+  width : 700px;
+  height : 400px;
+  background-color : #FFF96D;
+  display : flex;
+  align-items : center;
+  flex-direction :row;
+  justify-content : center;
+}
+
+.corpoResultados{
+  width : 500px;
+  height : 300px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  flex-wrap : wrap;
+}
+
+.resultado {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  width : 140px;
+  height : 140px;
+  color: black;
+  background-color : white;
+  font-size: 7rem;
+  border-radius : 90px
+} 
+
