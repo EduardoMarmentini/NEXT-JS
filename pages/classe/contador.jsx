@@ -1,14 +1,12 @@
 import { Component } from "react";
+import ContadorPagina from "../../components/Count"
 
 export default class Contador extends Component{
-    
+
     render(){
         return (
             <div>
-                <h1>
-                    Contador(usando classe)
-                </h1>
-                <h2>{this.props.ValorInicial}</h2>
+                <ContadorPagina valorInicial={100} />
             </div>
         )
     }
