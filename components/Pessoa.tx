@@ -1,0 +1,13 @@
+interface PessoaProps{
+    nome: string,
+    idade: number
+}
+export default function Pessoa(props : PessoaProps){
+    return (
+        <div>
+            Nome: {props.nome}
+            Idade: {props.idade ?? "não informada"}
+        </div>
+            
+    )
+}
